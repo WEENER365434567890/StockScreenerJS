@@ -29,6 +29,7 @@ Users will be able to:
 -   CSS
 -   HTML-5
 -   [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+- Charts JS
 ​
 ---
 ​
