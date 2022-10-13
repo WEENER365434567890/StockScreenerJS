@@ -34,7 +34,7 @@ export default class StatementChart{
                 return raw.json()
             })
             .then((data) => {
-                const statementYears = Object.keys(data)
+                const statementYears = Object.keys(data).reverse()
                 const labels = Object.keys(data[statementYears[0]])
 
                 const chartData = {
