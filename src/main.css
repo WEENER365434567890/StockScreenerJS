@@ -96,13 +96,15 @@ body {
 
 /*company stats settings */
 #statement-container {
+
     display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: black;
     flex-direction: column;
     justify-content: center;
-    align-items: space-evenly;
+    
+    background-color: black;
+    box-shadow: 10px 10px 5px gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 #chart-duration-buttons{
@@ -117,22 +119,17 @@ body {
 }
 
 
-/* .statement-table {
-    font-size: large;
-    border-left: 1px;
-    border-collapse: collapse;
-    border-collapse: separate;
-    border-spacing: 10px;
-} */
+
 
 
 #statement-content {
     display: flex;
-
-    color: white;
-    padding: 20px;
-    font-size: small;
-    border-spacing: 10px
+    height: 400;
+    width: 600;
+    background-color: black;
+    box-shadow: 10px 10px 5px gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 

@@ -19,7 +19,7 @@ export default class StatementChart{
         this.chartContainer = document.getElementById("statement-container")
         this.canvas = document.getElementById("statement-chart")
         this.ctx = this.canvas.getContext("2d")
-        this.canvas.width = this.chartContainer.clientWidth/2
+
       
     }
 

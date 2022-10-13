@@ -61,85 +61,48 @@ table {
 <body>
  
     <div id="main-container">
+
         <div id="head-container">
-            <div class="head-box" id="latest-price-container">
-                <div id="latest-price"></div>
-                <div id="latest-change"></div>
-            </div>
-            <div id="search-container">
-                <input type="text" id="search-bar" value="" placeholder="search symbol" >
-            </div>
-            <div class="head-box" id="head-name-container">
-                <div id="ticker"></div>
-                <div id="name"></div>
-            </div>
+                <div class="head-box" id="latest-price-container">
+                    <div id="latest-price"></div>
+                    <div id="latest-change"></div>
+                </div>
+
+                <div id="search-container">
+                    <input type="text" id="search-bar" value="" placeholder="search symbol" >
+                </div>
+
+                <div class="head-box" id="head-name-container">
+                    <div id="ticker"></div>
+                    <div id="name"></div>
+                </div>
+
         </div>
+
+
         <div id="chart-container">
-            <div id="chart-duration-buttons">
-            </div>
+            <div id="chart-duration-buttons"></div>
             <canvas id="chart" height="400" width="600" class="chart-container"></canvas>
         </div>
-        <!-- <div id="company-info-container"> -->
-            <!-- <div id="company-stats" class="company-info-box" hidden>
-     
-                <div id="stats-container">
+
+        <div id=statement-container>
+    
+
+                <div id="statement-buttons"></div>
+                <canvas id="statement-chart" height="400" width="600" class="chart-container"></canvas>
         
-                    <table id="stats-table">
-                     <th>company stats</th>
-                        <tr>
-                            <th>---------------------------------------------</th>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>open</td><td id="stats-open">open val</td>
-                        </tr>
-                        <tr>
-                            <td >close</td><td id="stats-close">close val</td>
-                        </tr>
-                        <tr>
-                            <td >52 week high</td><td id="stats-high">high val</td>
-                        </tr>
-                        <tr>
-                            <td >52 week low</td><td id="stats-low">high val</td>
-                        </tr>
-                        <tr>
-                            <td >volume</td><td id="stats-volume">volume val</td>
-                        </tr>
-                   
-                        <tr>
-                            <td >avg volume</td><td id="stats-avg-volume">avg vol val</td>
-                        </tr>
-                        <tr>
-                            <td >market cap</td><td id="stats-mc">market cap</td>
-                        </tr>
-                    </table>
-                </div>
-            </div> -->
-
          
-            <div id="statement-container">
-
-                <div id="statement-buttons">
-                    <!-- <button id="BS" class="statement-button">Balance Sheet</button>
-                      <button id="IS" class="statement-button">Income Statement</button>
-                      <button id="CF" class="statement-button">Cashflow Statement</button>  -->
-                    </div>
-                <div class="chart-container" id="statement-content">
-                    <canvas id="statement-chart" height="200" width="400"></canvas>
-                </div>
-
-             <div id="about-company-box">
-                about company
-             </div>
-            </div>
-
-
         </div>
 
     </div>
 
+</div>
+     
+         
+  
+
 
 </body>
 </html>
+
 
