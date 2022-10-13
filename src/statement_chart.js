@@ -67,8 +67,10 @@ export default class StatementChart{
                             grouped: true,
                             responsive: true,
                             maintainAspectRatio: true,
+                            font: {color: "white"},
                             scales: {
                                 offset: true,
+                           
                             },
                             
                         }

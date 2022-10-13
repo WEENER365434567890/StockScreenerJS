@@ -83,6 +83,7 @@ export default class priceChart{
               legend: false
             },
             scales: {
+              scaleLabel: {fontColor: "white"},
               xAxis: [{
                 gridLines: {
                   drawBorder: false,
@@ -93,6 +94,7 @@ export default class priceChart{
               y: {
                 type: this.yType,
                 position: "right",
+          
               },
               x: {
                     type: "time",
