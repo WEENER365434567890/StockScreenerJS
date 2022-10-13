@@ -1,0 +1,36 @@
+{
+    "2019": {
+        "Depreciation & Amortization": 135343511.4504,
+        "Stock-based compensation": 0.0,
+        "Operating Cash Flow": 428396946.5649,
+        "Capital Expenditure": -227709923.6641,
+        "Acquisitions and disposals": -132061068.7023,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -359160305.3435,
+        "Issuance (repayment) of debt": 91603053.4351,
+        "Issuance (buybacks) of shares": -185038167.9389,
+        "Dividend payments": -26946564.8855,
+        "Financing Cash Flow": -162748091.6031,
+        "Effect of forex changes on cash": -2671755.7252,
+        "Net cash flow / Change in cash": -96183206.1069,
+        "Free Cash Flow": 200687022.9008,
+        "Net Cash/Marketcap": NaN
+    },
+    "2018": {
+        "Depreciation & Amortization": 120322580.6452,
+        "Stock-based compensation": 0.0,
+        "Operating Cash Flow": 452258064.5161,
+        "Capital Expenditure": -185806451.6129,
+        "Acquisitions and disposals": 0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -186451612.9032,
+        "Issuance (repayment) of debt": 89354838.7097,
+        "Issuance (buybacks) of shares": -359919354.8387,
+        "Dividend payments": -20403225.8065,
+        "Financing Cash Flow": -326209677.4194,
+        "Effect of forex changes on cash": 1854838.7097,
+        "Net cash flow / Change in cash": -58548387.0968,
+        "Free Cash Flow": 266451612.9032,
+        "Net Cash/Marketcap": NaN
+    }
+}

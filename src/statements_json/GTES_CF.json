@@ -1,0 +1,53 @@
+{
+    "2018": {
+        "Depreciation & Amortization": 218500000.0,
+        "Stock-based compensation": 6000000.0,
+        "Operating Cash Flow": 313500000.0,
+        "Capital Expenditure": -164800000.0,
+        "Acquisitions and disposals": -50900000.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -243600000.0,
+        "Issuance (repayment) of debt": -960500000.0,
+        "Issuance (buybacks) of shares": 799700000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": -198900000.0,
+        "Effect of forex changes on cash": -12400000.0,
+        "Net cash flow / Change in cash": -141400000.0,
+        "Free Cash Flow": 148700000.0,
+        "Net Cash/Marketcap": -0.6728
+    },
+    "2017": {
+        "Depreciation & Amortization": 212200000.0,
+        "Stock-based compensation": 5400000.0,
+        "Operating Cash Flow": 319900000.0,
+        "Capital Expenditure": -98800000.0,
+        "Acquisitions and disposals": -110700000.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -227000000.0,
+        "Issuance (repayment) of debt": -51000000.0,
+        "Issuance (buybacks) of shares": -1000000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": -75300000.0,
+        "Effect of forex changes on cash": 19600000.0,
+        "Net cash flow / Change in cash": 37200000.0,
+        "Free Cash Flow": 221100000.0,
+        "Net Cash/Marketcap": -0.5572
+    },
+    "2016": {
+        "Depreciation & Amortization": 240800000.0,
+        "Stock-based compensation": 4200000.0,
+        "Operating Cash Flow": 376700000.0,
+        "Capital Expenditure": -53800000.0,
+        "Acquisitions and disposals": 0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -67900000.0,
+        "Issuance (repayment) of debt": -67200000.0,
+        "Issuance (buybacks) of shares": -900000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": -110800000.0,
+        "Effect of forex changes on cash": -9400000.0,
+        "Net cash flow / Change in cash": 188600000.0,
+        "Free Cash Flow": 322900000.0,
+        "Net Cash/Marketcap": -0.5572
+    }
+}

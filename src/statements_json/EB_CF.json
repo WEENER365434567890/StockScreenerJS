@@ -1,0 +1,53 @@
+{
+    "2018": {
+        "Depreciation & Amortization": 41694000.0,
+        "Stock-based compensation": 30231000.0,
+        "Operating Cash Flow": 7162000.0,
+        "Capital Expenditure": 5418000.0,
+        "Acquisitions and disposals": 12611000.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -39000.0,
+        "Issuance (repayment) of debt": -111071000.0,
+        "Issuance (buybacks) of shares": 0.0,
+        "Dividend payments": -0.0,
+        "Financing Cash Flow": 240056000.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 247179000.0,
+        "Free Cash Flow": 1744000.0,
+        "Net Cash/Marketcap": 0.0
+    },
+    "2017": {
+        "Depreciation & Amortization": 19418000.0,
+        "Stock-based compensation": 8600000.0,
+        "Operating Cash Flow": 29821000.0,
+        "Capital Expenditure": -8678000.0,
+        "Acquisitions and disposals": -131974000.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -140652000.0,
+        "Issuance (repayment) of debt": 21553000.0,
+        "Issuance (buybacks) of shares": 1767000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 159514000.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 48683000.0,
+        "Free Cash Flow": 21143000.0,
+        "Net Cash/Marketcap": 0.0594
+    },
+    "2016": {
+        "Depreciation & Amortization": 7639000.0,
+        "Stock-based compensation": 8531000.0,
+        "Operating Cash Flow": 2785000.0,
+        "Capital Expenditure": -8466000.0,
+        "Acquisitions and disposals": -1693000.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -10159000.0,
+        "Issuance (repayment) of debt": -578000.0,
+        "Issuance (buybacks) of shares": 2903000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 2325000.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": -5049000.0,
+        "Free Cash Flow": -5681000.0,
+        "Net Cash/Marketcap": 0.0594
+    }
+}

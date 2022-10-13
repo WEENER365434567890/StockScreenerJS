@@ -1,0 +1,53 @@
+{
+    "2018": {
+        "Depreciation & Amortization": 0.0,
+        "Stock-based compensation": 0.0,
+        "Operating Cash Flow": -789230.0,
+        "Capital Expenditure": 0.0,
+        "Acquisitions and disposals": 0.0,
+        "Investment purchases and sales": 474877.0,
+        "Investing Cash flow": 474877.0,
+        "Issuance (repayment) of debt": -200000.0,
+        "Issuance (buybacks) of shares": 0.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 156844.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": -157509.0,
+        "Free Cash Flow": -789230.0,
+        "Net Cash/Marketcap": 0.0018
+    },
+    "2017": {
+        "Depreciation & Amortization": 0.0,
+        "Stock-based compensation": 0.0,
+        "Operating Cash Flow": -497357.0,
+        "Capital Expenditure": 0.0,
+        "Acquisitions and disposals": 0.0,
+        "Investment purchases and sales": -115925000.0,
+        "Investing Cash flow": -115925000.0,
+        "Issuance (repayment) of debt": -201558.0,
+        "Issuance (buybacks) of shares": 117150000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 116783500.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 361143.0,
+        "Free Cash Flow": -497357.0,
+        "Net Cash/Marketcap": 0.003
+    },
+    "2016": {
+        "Depreciation & Amortization": NaN,
+        "Stock-based compensation": NaN,
+        "Operating Cash Flow": -497357.0,
+        "Capital Expenditure": 0.0,
+        "Acquisitions and disposals": NaN,
+        "Investment purchases and sales": NaN,
+        "Investing Cash flow": -115925000.0,
+        "Issuance (repayment) of debt": 300000.0,
+        "Issuance (buybacks) of shares": 0.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 201750.0,
+        "Effect of forex changes on cash": NaN,
+        "Net cash flow / Change in cash": NaN,
+        "Free Cash Flow": NaN,
+        "Net Cash/Marketcap": NaN
+    }
+}

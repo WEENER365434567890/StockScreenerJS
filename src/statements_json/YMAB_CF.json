@@ -1,0 +1,53 @@
+{
+    "2018": {
+        "Depreciation & Amortization": 29000.0,
+        "Stock-based compensation": 1966000.0,
+        "Operating Cash Flow": -41229000.0,
+        "Capital Expenditure": 234000.0,
+        "Acquisitions and disposals": -0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -234000.0,
+        "Issuance (repayment) of debt": -0.0,
+        "Issuance (buybacks) of shares": -48075000.0,
+        "Dividend payments": -0.0,
+        "Financing Cash Flow": 98763000.0,
+        "Effect of forex changes on cash": 56000.0,
+        "Net cash flow / Change in cash": 57356000.0,
+        "Free Cash Flow": -41463000.0,
+        "Net Cash/Marketcap": 0.0
+    },
+    "2017": {
+        "Depreciation & Amortization": 0.0,
+        "Stock-based compensation": 609000.0,
+        "Operating Cash Flow": -15870000.0,
+        "Capital Expenditure": 0.0,
+        "Acquisitions and disposals": 0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": 0.0,
+        "Issuance (repayment) of debt": 0.0,
+        "Issuance (buybacks) of shares": 89844000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 89586000.0,
+        "Effect of forex changes on cash": -104000.0,
+        "Net cash flow / Change in cash": 73612000.0,
+        "Free Cash Flow": -15870000.0,
+        "Net Cash/Marketcap": 0.0896
+    },
+    "2016": {
+        "Depreciation & Amortization": 0.0,
+        "Stock-based compensation": 258000.0,
+        "Operating Cash Flow": -11166000.0,
+        "Capital Expenditure": 0.0,
+        "Acquisitions and disposals": 0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": 0.0,
+        "Issuance (repayment) of debt": 0.0,
+        "Issuance (buybacks) of shares": 18972000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 18972000.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 7806000.0,
+        "Free Cash Flow": -11166000.0,
+        "Net Cash/Marketcap": 0.0896
+    }
+}

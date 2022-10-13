@@ -1,0 +1,46 @@
+{
+  "name": "stock-screener-js",
+  "version": "1.0.0",
+  "description": "​ A site that allows users to keep research and keep track of stock companies. Users will be able to reseach the following financial data:",
+  "main": "index.js",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "Michael Aman",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "chart.js": "^3.9.1",
+    "chartjs-adapter-date-fns": "^2.0.0",
+    "chartjs-adapter-moment": "^1.0.0",
+    "core-js": "^3.25.5",
+    "css-loader": "^6.7.1",
+    "d3": "^7.6.1",
+    "date-fns": "^2.29.3",
+    "mini-css-extract-plugin": "^2.6.1",
+    "moment": "^2.29.4",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "svg-url-loader": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-aman01/StockScreenerJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michael-aman01/StockScreenerJS/issues"
+  },
+  "homepage": "https://github.com/michael-aman01/StockScreenerJS#readme"
+}

@@ -1,0 +1,53 @@
+{
+    "2018": {
+        "Depreciation & Amortization": 1364000.0,
+        "Stock-based compensation": 4731000.0,
+        "Operating Cash Flow": -18544000.0,
+        "Capital Expenditure": -2002000.0,
+        "Acquisitions and disposals": -10337000.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -10673000.0,
+        "Issuance (repayment) of debt": 17319000.0,
+        "Issuance (buybacks) of shares": 9000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 15778000.0,
+        "Effect of forex changes on cash": -351000.0,
+        "Net cash flow / Change in cash": -13790000.0,
+        "Free Cash Flow": -20546000.0,
+        "Net Cash/Marketcap": NaN
+    },
+    "2017": {
+        "Depreciation & Amortization": 939000.0,
+        "Stock-based compensation": 11566000.0,
+        "Operating Cash Flow": -12914000.0,
+        "Capital Expenditure": -1685000.0,
+        "Acquisitions and disposals": -24700000.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -25551000.0,
+        "Issuance (repayment) of debt": -171000.0,
+        "Issuance (buybacks) of shares": 85596000.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 85425000.0,
+        "Effect of forex changes on cash": 378000.0,
+        "Net cash flow / Change in cash": 47338000.0,
+        "Free Cash Flow": -14599000.0,
+        "Net Cash/Marketcap": NaN
+    },
+    "2016": {
+        "Depreciation & Amortization": NaN,
+        "Stock-based compensation": NaN,
+        "Operating Cash Flow": -9049600.0,
+        "Capital Expenditure": -1304800.0,
+        "Acquisitions and disposals": NaN,
+        "Investment purchases and sales": NaN,
+        "Investing Cash flow": 8424000.0,
+        "Issuance (repayment) of debt": -1481600.0,
+        "Issuance (buybacks) of shares": 4349600.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 2868000.0,
+        "Effect of forex changes on cash": NaN,
+        "Net cash flow / Change in cash": NaN,
+        "Free Cash Flow": NaN,
+        "Net Cash/Marketcap": NaN
+    }
+}

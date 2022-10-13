@@ -1,0 +1,53 @@
+{
+    "2018": {
+        "Depreciation & Amortization": 2134832.0,
+        "Stock-based compensation": 0.0,
+        "Operating Cash Flow": 11953466.0,
+        "Capital Expenditure": 3075385.0,
+        "Acquisitions and disposals": -0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -6365313.0,
+        "Issuance (repayment) of debt": -3573698.0,
+        "Issuance (buybacks) of shares": -5489404.0,
+        "Dividend payments": -0.0,
+        "Financing Cash Flow": -6184793.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": -596640.0,
+        "Free Cash Flow": 8878081.0,
+        "Net Cash/Marketcap": 0.0
+    },
+    "2017": {
+        "Depreciation & Amortization": 0.0,
+        "Stock-based compensation": 0.0,
+        "Operating Cash Flow": -140954.0,
+        "Capital Expenditure": 0.0,
+        "Acquisitions and disposals": -0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -45135000.0,
+        "Issuance (repayment) of debt": -0.0,
+        "Issuance (buybacks) of shares": -560204.0,
+        "Dividend payments": -0.0,
+        "Financing Cash Flow": 45791203.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 515249.0,
+        "Free Cash Flow": -140954.0,
+        "Net Cash/Marketcap": 0.0
+    },
+    "2016": {
+        "Depreciation & Amortization": NaN,
+        "Stock-based compensation": NaN,
+        "Operating Cash Flow": 0.0,
+        "Capital Expenditure": 0.0,
+        "Acquisitions and disposals": NaN,
+        "Investment purchases and sales": NaN,
+        "Investing Cash flow": -45135000.0,
+        "Issuance (repayment) of debt": 300000.0,
+        "Issuance (buybacks) of shares": 42857.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 45000.0,
+        "Effect of forex changes on cash": NaN,
+        "Net cash flow / Change in cash": 45000.0,
+        "Free Cash Flow": NaN,
+        "Net Cash/Marketcap": 0.012
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "2018": {
+        "Depreciation & Amortization": 678000.0,
+        "Stock-based compensation": 12490000.0,
+        "Operating Cash Flow": -53666000.0,
+        "Capital Expenditure": 367000.0,
+        "Acquisitions and disposals": -0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -367000.0,
+        "Issuance (repayment) of debt": -0.0,
+        "Issuance (buybacks) of shares": -24566000.0,
+        "Dividend payments": -0.0,
+        "Financing Cash Flow": 63753000.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 9720000.0,
+        "Free Cash Flow": -54033000.0,
+        "Net Cash/Marketcap": 0.0
+    },
+    "2017": {
+        "Depreciation & Amortization": 0.0,
+        "Stock-based compensation": 5633000.0,
+        "Operating Cash Flow": -10899000.0,
+        "Capital Expenditure": 62000.0,
+        "Acquisitions and disposals": -0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -1062000.0,
+        "Issuance (repayment) of debt": -0.0,
+        "Issuance (buybacks) of shares": -8533000.0,
+        "Dividend payments": -0.0,
+        "Financing Cash Flow": 78098000.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 66137000.0,
+        "Free Cash Flow": -10961000.0,
+        "Net Cash/Marketcap": 0.0
+    },
+    "2016": {
+        "Depreciation & Amortization": NaN,
+        "Stock-based compensation": NaN,
+        "Operating Cash Flow": -987000.0,
+        "Capital Expenditure": -62000.0,
+        "Acquisitions and disposals": NaN,
+        "Investment purchases and sales": NaN,
+        "Investing Cash flow": -1062000.0,
+        "Issuance (repayment) of debt": -11077000.0,
+        "Issuance (buybacks) of shares": 0.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": 29696000.0,
+        "Effect of forex changes on cash": NaN,
+        "Net cash flow / Change in cash": 28709000.0,
+        "Free Cash Flow": NaN,
+        "Net Cash/Marketcap": 0.0125
+    }
+}

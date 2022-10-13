@@ -1,0 +1,53 @@
+{
+    "2018": {
+        "Depreciation & Amortization": 2522000.0,
+        "Stock-based compensation": 26960000.0,
+        "Operating Cash Flow": 10275000.0,
+        "Capital Expenditure": 2096000.0,
+        "Acquisitions and disposals": -0.0,
+        "Investment purchases and sales": 0.0,
+        "Investing Cash flow": -2180000.0,
+        "Issuance (repayment) of debt": -50625000.0,
+        "Issuance (buybacks) of shares": -18635000.0,
+        "Dividend payments": -80059000.0,
+        "Financing Cash Flow": 5592000.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 13687000.0,
+        "Free Cash Flow": 8179000.0,
+        "Net Cash/Marketcap": 0.0
+    },
+    "2017": {
+        "Depreciation & Amortization": 876.0,
+        "Stock-based compensation": 0.0,
+        "Operating Cash Flow": 13542.0,
+        "Capital Expenditure": -6452.0,
+        "Acquisitions and disposals": 0.0,
+        "Investment purchases and sales": 434.0,
+        "Investing Cash flow": -6135.0,
+        "Issuance (repayment) of debt": 19625.0,
+        "Issuance (buybacks) of shares": 0.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": -6237.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 1170.0,
+        "Free Cash Flow": 7090.0,
+        "Net Cash/Marketcap": -0.2157
+    },
+    "2016": {
+        "Depreciation & Amortization": 488334.0,
+        "Stock-based compensation": 0.0,
+        "Operating Cash Flow": 4401860.0,
+        "Capital Expenditure": -675715.0,
+        "Acquisitions and disposals": 2156.0,
+        "Investment purchases and sales": 18739.0,
+        "Investing Cash flow": -696394.0,
+        "Issuance (repayment) of debt": 28622101.0,
+        "Issuance (buybacks) of shares": 0.0,
+        "Dividend payments": 0.0,
+        "Financing Cash Flow": -965232.0,
+        "Effect of forex changes on cash": 0.0,
+        "Net cash flow / Change in cash": 2740234.0,
+        "Free Cash Flow": 3726145.0,
+        "Net Cash/Marketcap": -0.0336
+    }
+}
