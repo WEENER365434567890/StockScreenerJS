@@ -2,7 +2,7 @@
 import Chart from 'chart.js/auto'
 import Utils  from 'chart.js'
 import 'chartjs-adapter-date-fns'
-import { enUS } from "date-fns/locale"
+import { SearchBar } from './search_bar'
 import StatementChart from "./statement_chart"
 import priceChart from './price_chart'
 
@@ -10,7 +10,7 @@ import Stock from './stock'
 
 
 
-function clearChart(chartType){
+export function clearChart(chartType){
     let parentID
     let containerID
     let buttonContainerID
@@ -75,7 +75,7 @@ function changeDuration(newDuration){
 }
 
 
-function addDurationButtons(){
+export function addDurationButtons(){
     const durations = ["1W","1M","6M","1Y","MAX"]
     const buttonContainer = document.getElementById("chart-duration-buttons")
 
@@ -93,7 +93,7 @@ function addDurationButtons(){
   
 }
 
-function updateStatementChart(stockSymbol,type){
+export function updateStatementChart(stockSymbol,type){
     clearChart("statementChart")
     addStatementButtons()
     new StatementChart(stockSymbol,type).render()
@@ -139,19 +139,20 @@ function addStatementButtons(){
          container.appendChild(bContainer)
     }
 
-   
 
 }
 
 
 
 function initPage(){
-    searchQuery()
+
     addDurationButtons()
     addStatementButtons()
      new Stock('msft').chartPrices("1Y")
 
     new StatementChart("MSFT","BS").render()
+    new SearchBar()
+    
 }
 initPage()
 

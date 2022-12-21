@@ -100,6 +100,29 @@ body {
   color: white;
 }
 
+#search-result-container {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 30%;
+  color: white;
+  z-index: 2;
+  width: 30%;
+  background-color: white;
+  cursor: pointer;
+  overflow: auto;
+  max-height: 400px;
+  background-color: black;
+}
+
+.search-result {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
 #statement-content {
   display: flex;
   height: 400;
