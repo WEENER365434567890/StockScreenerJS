@@ -27,6 +27,7 @@
     "dotenv": "^16.0.3",
     "mini-css-extract-plugin": "^2.6.1",
     "moment": "^2.29.4",
+    "os-browserify": "^0.3.0",
     "regenerator-runtime": "^0.13.9",
     "sass": "^1.55.0",
     "sass-loader": "^13.1.0",
@@ -43,5 +44,10 @@
   "bugs": {
     "url": "https://github.com/michael-aman01/StockScreenerJS/issues"
   },
-  "homepage": "https://github.com/michael-aman01/StockScreenerJS#readme"
+  "homepage": "https://github.com/michael-aman01/StockScreenerJS#readme",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
 }
