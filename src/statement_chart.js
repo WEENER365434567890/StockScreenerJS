@@ -39,21 +39,28 @@ export default class StatementChart{
 
                 const chartData = {
                     labels: labels,
-                    barThickness: 6,
+        
                     base: 10000,
                     datasets: [{
                         data: Object.values(data[statementYears[0]]),
-                        borderWidth: 4,
-                        borderColor:"blue",
-                        label: ` ${this.label} ${statementYears[0]}`,
-                    
+                        strokeColor: "red",
+                        barPercentage: 0.5,
+                        borderColor: "red",
+                        borderWidth: 1,
+                        backgroundColor: "red",
+                        fillColor: "red",
+                        label: ` ${this.label} ${statementYears[0]} (in USD Millions)`,
+                
            
                     },
                     {
                         data: Object.values(data[statementYears[1]]),
-                        borderWidth: 4,
-                        borderColor: "red",
-            
+                        strokeColor: "blue",
+                        borderColor: "blue",
+                        barPercentage: 0.5,
+                        borderWidth: 1,
+                        backgroundColor: "blue",
+                        fillColor: "blue",
                         label:  ` ${this.label} ${statementYears[1]}`,
                     }
                 ],
@@ -67,10 +74,29 @@ export default class StatementChart{
                             grouped: true,
                             responsive: true,
                             maintainAspectRatio: true,
-                            font: {color: "white"},
+                            plugins:{
+                            legend: {
+                                labels: {
+                                    color: "white",
+                                },
+                            },
+                        },
+         
                             scales: {
                                 offset: true,
-                           
+                                x: {
+                                    ticks: {
+                                        color: "white"
+                                    }
+                                },
+                                y: {
+                                    
+                                    ticks: {
+                            
+                                        color: "white"
+                                    }
+                                },
+
                             },
                             
                         }

@@ -78,24 +78,13 @@ export default class priceChart{
                 interaction: {
                 intersect: false
             },
+            
             maintainAspectRatio: false,
             plugins: {
-              legend: false
+              legend: false,
             },
             scales: {
-              scaleLabel: {fontColor: "white"},
-              xAxis: [{
-                gridLines: {
-                  drawBorder: false,
-                  display: false,
-                },
-                scaleLabel:{display: true},
-              }],
-              y: {
-                type: this.yType,
-                position: "right",
-          
-              },
+        
               x: {
                     type: "time",
                     time: {
@@ -103,7 +92,10 @@ export default class priceChart{
                         //set depending on duration passed to price chart class
                     },
                   ticks: {
-                    callback: () => (' ')
+                    callback: function(val,index){
+                      return val
+                    },
+                    color: "white",
                   },
 
                   adapters: {
@@ -112,6 +104,19 @@ export default class priceChart{
                       }
                   }
               },
+              y: {
+                ticks: {
+                  callback: function(val, index){
+                    return `$${val}`
+                  },
+                  color: "white",
+                 
+                },
+                position: "right",
+                scaleLabel:{
+                  display: false
+                }
+              }
             }
           }
         };

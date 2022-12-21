@@ -1,3 +1,149 @@
-body{height:100vh;width:100vw;background-color:#fff;font-family:"Roboto",sans-serif}#main-container{display:flex;flex-direction:column;height:95vh;width:95vw;margin:20px;align-items:space-between}#chart{height:400;width:600;background-color:#000;box-shadow:10px 10px 5px gray;margin-bottom:10px;border-radius:10px}#head-container{display:flex;height:25%;width:100%;color:#fff;background-color:#000;box-shadow:10px 10px 5px gray;margin-bottom:10px;border-radius:10px;justify-content:space-between;align-items:flex-start}#search-container{display:flex;width:33vh;justify-content:space-around;align-items:center;margin:10px;border:10px;margin-top:15px}#search-bar{border-radius:20px;color:#fff;height:20px;width:100%;margin-top:10px;background-color:#000}.head-box{padding:20px}#head-name-container{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space-between}#statement-container{display:flex;flex-direction:column;justify-content:center;background-color:#000;box-shadow:10px 10px 5px gray;margin-bottom:10px;border-radius:10px}#chart-duration-buttons{position:absolute;z-index:2;color:#fff}#chart-duration-buttons button{border:1px solid green;background-color:#000;color:#fff}#statement-content{display:flex;height:400;width:600;background-color:#000;box-shadow:10px 10px 5px gray;margin-bottom:10px;border-radius:10px}#statement-buttons{display:flex;flex-direction:row;height:10%;justify-content:center}.statement-button{height:25px;font-size:15px;font-weight:300;color:#fff;border:1px solid #000;background-color:#000;border-radius:10px}#ticker{font-size:30px}#latest-price{font-size:45px;margin-bottom:1px}#latest-change{font-size:20px}input[type=text]{font-size:large;color:#fff;padding:5px;text-align:center}
+/*!***********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/main.css ***!
+  \***********************************************************************************************************************************/
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
 
-/*# sourceMappingURL=main.css.map*/
+#main-container {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 95vw;
+  margin: 20px;
+  align-items: space-between;
+}
+
+#chart {
+  height: 400;
+  width: 600;
+  background-color: black;
+  box-shadow: 10px 10px 5px gray;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+/*Head bar settings */
+#head-container {
+  display: flex;
+  height: 25%;
+  width: 100%;
+  color: white;
+  background-color: black;
+  box-shadow: 10px 10px 5px gray;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#search-container {
+  display: flex;
+  width: 33vh;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  border: 10px;
+  margin-top: 15px;
+}
+
+#search-bar {
+  border-radius: 20px;
+  color: white;
+  height: 20px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: black;
+}
+
+.head-box {
+  padding: 20px;
+}
+
+#head-name-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*company stats settings */
+#statement-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  box-shadow: 10px 10px 5px gray;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#chart-container {
+  width: 100%;
+  height: 100%;
+}
+
+#chart-duration-buttons {
+  position: absolute;
+  z-index: 2;
+  color: white;
+}
+
+#chart-duration-buttons button {
+  border: 1px solid green;
+  background-color: black;
+  color: white;
+}
+
+#statement-content {
+  display: flex;
+  height: 400;
+  width: 600;
+  background-color: black;
+  box-shadow: 10px 10px 5px gray;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#statement-buttons {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  justify-content: center;
+}
+
+.statement-button {
+  height: 25px;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#ticker {
+  font-size: 30px;
+}
+
+#latest-price {
+  font-size: 45px;
+  margin-bottom: 1px;
+}
+
+#latest-change {
+  font-size: 20px;
+}
+
+input[type=text] {
+  font-size: large;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}

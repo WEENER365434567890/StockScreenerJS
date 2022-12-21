@@ -1,4 +1,4 @@
-import * as d3 from "d3"
+
 import Chart from 'chart.js/auto'
 import Utils  from 'chart.js'
 import 'chartjs-adapter-date-fns'
@@ -99,7 +99,11 @@ function updateStatementChart(stockSymbol,type){
     new StatementChart(stockSymbol,type).render()
 }
 
-function _handleStatement(){
+function _handleStatement(e){
+
+    const selectedButton  = document.getElementById(`${e.target.id}_container`)
+    console.log(selectedButton)
+    selectedButton.style.border = "10px solid red"
     clearChart("statementChart")
     addStatementButtons()
     const currentTicker = document.getElementById("ticker").textContent
@@ -129,7 +133,10 @@ function addStatementButtons(){
     const statementButtons = [bsButton,isButton,cfButton]
     for(let i = 0; i < statementButtons.length; i++){
          statementButtons[i].addEventListener("click",_handleStatement)
-         container.appendChild(statementButtons[i])
+         let bContainer = document.createElement("div")
+         bContainer.setAttribute("id", `${statementButtons[i].id}_container`)
+         bContainer.appendChild(statementButtons[i])
+         container.appendChild(bContainer)
     }
 
    
