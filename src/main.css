@@ -1,40 +1,36 @@
-body {
+/*!***********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/main.css ***!
+  \***********************************************************************************************************************************/
+  body {
     height: 100vh;
     width: 100vw;
     background-color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-#main-container{
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #main-container {
     display: flex;
     flex-direction: column;
     height: 95vh;
     width: 95vw;
     margin: 20px;
     align-items: space-between;
-
-}
-
-
- 
-
-
-#chart {
-    height: 400;
+  }
+  
+  #chart {
+    height: 600;
     width: 600;
     background-color: black;
     box-shadow: 10px 10px 5px gray;
     margin-bottom: 10px;
     border-radius: 10px;
     color: white;
-
-}
-
-                                /*Head bar settings */
-#head-container{
+  }
+  
+  /*Head bar settings */
+  #head-container {
     display: flex;
-    height:  25%;
+    height: 25%;
     width: 100%;
     color: white;
     background-color: black;
@@ -42,43 +38,44 @@ body {
     margin-bottom: 10px;
     border-radius: 10px;
     justify-content: space-between;
-    align-items: flex-start
-}
-#search-container{
+    align-items: flex-start;
+  }
+  
+  #search-container {
     display: flex;
-    width:  33vh;
+    width: 33%;
     justify-content: space-around;
     align-items: center;
     margin: 10px;
+    margin-left: 15%;
     border: 10px;
     margin-top: 15px;
-}
-#search-bar{
+  }
+  
+  #search-bar {
     border-radius: 20px;
     color: white;
     height: 20px;
     width: 100%;
     margin-top: 10px;
+  
     background-color: black;
-
-}
-
-.head-box{
+  }
+  
+  .head-box {
     padding: 20px;
-
-}
-
-#head-name-container{
+  
+  }
+  
+  #head-name-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
     justify-content: space-between;
-}
-
-/*company stats settings */
-#statement-container {
-
+  }
+  
+  /*company stats settings */
+  #statement-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,27 +84,26 @@ body {
     box-shadow: 10px 10px 5px gray;
     margin-bottom: 10px;
     border-radius: 10px;
-}
-
-#chart-container {
+  }
+  
+  #chart-container {
     width: 100%;
     height: 100%;
-}
-
-#chart-duration-buttons{
+  }
+  
+  #chart-duration-buttons {
     position: absolute;
     z-index: 2;
     color: white;
-}
-#chart-duration-buttons button {
+  }
+  
+  #chart-duration-buttons button {
     border: 1px solid green;
     background-color: black;
-    color: white
-}
-
-
-
-#search-result-container{
+    color: white;
+  }
+  
+  #search-result-container {
     position: absolute;
     margin-top: 5%;
     margin-left: 30%;
@@ -119,20 +115,18 @@ body {
     overflow: auto;
     max-height: 400px;
     background-color: black;
-    
-}
-
-.search-result {
+  }
+  
+  .search-result {
     display: flex;
     justify-content: space-between;
     border: 1px solid white;
     height: 50px;
     padding: 10px;
     text-align: center;
-}
-
-
-#statement-content {
+  }
+  
+  #statement-content {
     display: flex;
     height: 400;
     width: 600;
@@ -140,18 +134,16 @@ body {
     box-shadow: 10px 10px 5px gray;
     margin-bottom: 10px;
     border-radius: 10px;
-}
-
-
-#statement-buttons {
+  }
+  
+  #statement-buttons {
     display: flex;
     flex-direction: row;
     height: 10%;
     justify-content: center;
-}
-
-
-.statement-button {
+  }
+  
+  .statement-button {
     height: 25px;
     font-size: 15px;
     font-weight: 300;
@@ -160,27 +152,36 @@ body {
     background-color: black;
     border-radius: 10px;
     cursor: pointer;
-}
-
-
-
-#ticker {
+  }
+  
+  #ticker {
     font-size: 30px;
-}
-
-#latest-price {
+  }
+  
+  #latest-price {
     font-size: 45px;
     margin-bottom: 1px;
-}
-
-#latest-change {
+  }
+  
+  #latest-change {
     font-size: 20px;
-}
-
-input[type="text"] {
+  }
+  
+  input[type=text] {
     font-size: large;
     color: white;
     padding: 5px;
     text-align: center;
-    
-}
+  }
+  
+  #social-media-container{
+    display: flex;
+    padding: 20px;
+    margin-left: 10%;
+    justify-content: space-between;
+    width: 10%;
+  }
+  
+  .social-link {
+    cursor: pointer;
+  }
