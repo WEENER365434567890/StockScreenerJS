@@ -8,6 +8,20 @@ import priceChart from './price_chart'
 
 import Stock from './stock'
 
+export function handleSocial(){
+    const links = {
+        "linkedin": "https://www.linkedin.com/in/michael-aman-ba1086258/",
+        "github": "https://github.com/michael-aman01/StockScreenerJS"
+    }
+    let tags = Array.from(document.getElementsByClassName("social-link"))
+    tags.forEach(tag => {
+        tag.addEventListener("click",(e) => {
+            const link = links[e.target.id]
+      
+            window.open(link, "_blank")
+        })
+    })
+}
 
 
 export function clearChart(chartType){
@@ -148,10 +162,14 @@ function initPage(){
 
     addDurationButtons()
     addStatementButtons()
+
      new Stock('msft').chartPrices("1Y")
 
     new StatementChart("MSFT","BS").render()
     new SearchBar()
+    handleSocial()
+
+    
     
 }
 initPage()
