@@ -116,7 +116,6 @@ export function updateStatementChart(stockSymbol,type){
 function _handleStatement(e){
 
     const selectedButton  = document.getElementById(`${e.target.id}_container`)
-    console.log(selectedButton)
     selectedButton.style.border = "10px solid red"
     clearChart("statementChart")
     addStatementButtons()

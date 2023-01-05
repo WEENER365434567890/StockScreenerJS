@@ -34,12 +34,12 @@ export default class StatementChart{
                 if(res.ok){
                     return res.json()
                 }else{
-                    console.log(res)
+                    return null
                 }
           
             })
             .then((data) => {
-                console.log(data)
+       
                 const statementYears = data.map(obj => parseInt(obj.date.split("-")[0]))
                 const colors = ["red","blue","green", "white","yellow","purple","grey"]
                 const unwanted = ["date", "symbol","cik","fillingDate","acceptedDate","period","calendarYear"]

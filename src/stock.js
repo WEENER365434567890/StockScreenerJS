@@ -88,7 +88,7 @@ export default class Stock{
                 return file.json()
             })
             .then((data) => {
-                console.log(data)
+             
                 return data
             })
             return returnData
@@ -121,8 +121,7 @@ export default class Stock{
                         "MAX" : dateIndices.length
                     }
                     const keys = dateIndices.slice(0,durationOptions[duration])
-                    console.log(keys.length)
-                    console.log(keys)
+
                     const subsetData = []
                     for(let i = 0; i < keys.length; i++){
                       
