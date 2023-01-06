@@ -42,7 +42,7 @@ export default class StatementChart{
        
                 const statementYears = data.map(obj => parseInt(obj.date.split("-")[0]))
                 const colors = ["red","blue","green", "white","yellow","purple","grey"]
-                const unwanted = ["date", "symbol","cik","fillingDate","acceptedDate","period","calendarYear"]
+                const unwanted = ["date", "symbol","cik","fillingDate","acceptedDate","period","calendarYear", "link", "finalLink"]
                 const labels = Object.keys(data[0]).filter(key => !unwanted.includes(key))
 
                 const dataSets = []
